@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: #e1ebf9; */
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.container {
+    text-align: center;
+}
+
+.c1 {
+    text-align: center;
+    margin-top: 55px;
+    /* font-family: 'Andika', sans-serif; */
+
+}
+
+.c2 {
+    height: 350px;
+    width: 350px;
+    /* border: 2px solid rgb(246, 230, 230); */
+    margin: auto;
+    margin-top: 110px;
+}
+
+.phone {
+    font-size-adjust: 0.8;
+    font-weight: bold;
+    padding-left: 10px;
+    width: 340px;
+    height: 40px;
+}
+
+.pass {
+    margin-top: 10px;
+    font-weight: bold;
+    width: 340px;
+    padding-left: 10px;
+    height: 40px;
+}
+
+.submit {
+    margin-top: 20px;
+    width: 355px;
+    height: 40px;
+    border: none;
+    font-weight: bolder;
+    background-color: #1877f2;
+    color: white;
+}
+
+.forgot {
+    margin-top: 17px;
+}
+
+.c2 hr {
+    width: 346px;
+    margin-left: 2px;
+    margin-top: 20px;
+}
+
+.but {
+    width: 200px;
+    height: 40px;
+    margin-top: 25px;
+    background-color: rgb(20, 192, 20);
+    font-weight: bold;
+    color: white;
+    border: none;
+}
+
+
+.name ,.roll,.phone ,.errorf ,.invalid{
+    margin-top: 10px;
+    font-weight: bold;
+    width: 340px;
+    padding-left: 10px;
+    height: 40px;
+}
+.invalid{
+    color: red;
+}
+
+.welcome{
+    margin-top: 25px;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sym{
+    margin-top: 20px;
+}
+
+.m1,.m2,.m3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 18px;
+    width: 240px;
+    height: 180px;
+    background-color: bisque;
+    border-radius: 25px;
+}
+
+a:link{
+    text-decoration: none;
+    color: brown;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: x-large;
+}
+
+.omc{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.box{
+    text-align: center;
+    /* background-color: aqua; */
+}
+
+#qrscanner{
+    display: none;
+    /* display: ; */
+    width: 300px;
+    height: 300px;
+    border: 2px solid red;
+}
+
+#result{
+    width: 150px;
+    height: 150px;
+    border: 2px solid blue;
+    margin-top: 20px;
+}
+
+.topmargin{
+    margin-top: 30px;
+}
+
+#scannerbutton{
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+}

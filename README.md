@@ -12,4 +12,4 @@
 ### Home page after successfull login: 
 <img width="1440" alt="Screenshot 2023-03-11 at 11 08 39 AM" src="https://user-images.githubusercontent.com/113715546/224468276-dffb7e3c-4f6e-410b-b2aa-ee5f5fd45b4f.png">
 
-You can add and delete todos, which are stored in mongodb atlas database so that your todos data will be accessible accross logins..
+You can add and delete todos, which are stored in mongodb atlas database so that your todos data will be accessible across logins..

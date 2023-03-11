@@ -17,23 +17,22 @@
 .todo{
     border: 2px solid rgb(54, 113, 54);
     border-radius: 20px;
-    width: 280px;
     margin: auto;
     margin-top: 20px;
     padding-bottom: 9px;
-    /* background-color: gainsboro; */
+
     text-align: left;
     padding-left: 20px;
     display: inline-block;
     margin-right: 20px;
-    height: 133px;
     width: 258px;
+    max-height: 138px;
     box-shadow: 4px 4px 5px #aaa;
+    overflow: auto;
 
 }
 
 .todocontainer{
-    /* border: 2px solid blue; */   
     width: 700px;
     height: auto;
     margin: auto;
@@ -50,9 +49,8 @@
     backface-visibility: hidden;
     width: 60px;
     height: 25px;
-
-
 }
+
 .addbutton{
     border: none;
     background-color: #388bf6;
@@ -69,14 +67,6 @@
     text-align: center;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
-
-* {
-    /* margin: 0;
-    padding: 0; */
-    /* background-color: #e1ebf9; */
-    font-family: 'Balsamiq Sans', cursive;
-}
 
 .container {
     text-align: center;
@@ -85,13 +75,10 @@
 .c1 {
     text-align: center;
     margin-top: 55px;
-    /* font-family: 'Andika', sans-serif; */
-
 }
 
 .c2 {
-    
-    /* border: 2px solid rgb(246, 230, 230); */
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -131,6 +118,7 @@
 }
 
 .c2 hr {
+    margin-top: 28px;
     width: 346px;
 }
 
@@ -156,70 +144,10 @@
     color: red;
 }
 
-.welcome{
-    margin-top: 25px;
-}
-
-.flex{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.sym{
-    margin-top: 20px;
-}
-
-.m1,.m2,.m3{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 18px;
-    width: 240px;
-    height: 180px;
-    background-color: bisque;
-    border-radius: 25px;
-}
 
 a:link{
     text-decoration: none;
     color: brown;
     font-family: 'Balsamiq Sans', cursive;
     font-size: x-large;
-}
-
-.omc{
-    margin-top: 40px;
-    margin-bottom: 30px;
-}
-
-.box{
-    text-align: center;
-    /* background-color: aqua; */
-}
-
-#qrscanner{
-    display: none;
-    /* display: ; */
-    width: 300px;
-    height: 300px;
-    border: 2px solid red;
-}
-
-#result{
-    width: 150px;
-    height: 150px;
-    border: 2px solid blue;
-    margin-top: 20px;
-}
-
-.topmargin{
-    margin-top: 30px;
-}
-
-#scannerbutton{
-    margin-top: 20px;
-    width: 100px;
-    height: 40px;
 }

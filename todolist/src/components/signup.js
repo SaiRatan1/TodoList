@@ -87,15 +87,15 @@ const Signup = () => {
                 <div className="c2">
                     <form name="signupform" method="post" id="signupsubmit" onSubmit={validate}>
                         <input type="text" className="name" name="fname" placeholder="Name" required
-                            value={user.name} onChange={(e) => { setUser({ ...user, name: e.target.value }) }} />
+                            value={user.name} onChange={(e) => { setUser({ ...user, name: e.target.value }) }} /><br/>
                         <input type="text" className="roll" name="froll" placeholder="Roll Number" required
-                            value={user.roll} onChange={(e) => { setUser({ ...user, roll: e.target.value }) }} />
+                            value={user.roll} onChange={(e) => { setUser({ ...user, roll: e.target.value }) }} /><br/>
                         <input type="Phone" className="phone" name="fphone2" placeholder="Phone" required
-                            value={user.phone} onChange={(e) => { setUser({ ...user, phone: e.target.value }) }} />
+                            value={user.phone} onChange={(e) => { setUser({ ...user, phone: e.target.value }) }} /><br/>
                         <input type="password" className="pass" name="fpass2" placeholder="Password" required
-                            value={user.password} onChange={(e) => { setUser({ ...user, password: e.target.value }) }} />
+                            value={user.password} onChange={(e) => { setUser({ ...user, password: e.target.value }) }} /><br/>
                         <input type="password" className="pass" name="fpass3" placeholder="Confirm password" required 
-                         value={user.confirmpassword} onChange={(e) => { setUser({ ...user, confirmpassword: e.target.value }) }}/>
+                         value={user.confirmpassword} onChange={(e) => { setUser({ ...user, confirmpassword: e.target.value }) }}/><br/>
                         <input type="submit" className="submit" name="fsubmit2" value="Sign Up" />
                     </form>
                     <div className="errorf"></div>

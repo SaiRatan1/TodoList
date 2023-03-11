@@ -13,7 +13,6 @@ const DB = 'mongodb+srv://SaiRatan:SaiRatan@cluster0.39xb8ki.mongodb.net/testDB?
 
 mongoose.connect(DB).then(()=>{console.log('Connection successfull')}).catch((err)=>{console.log(`Couldn't connect to database`)})
 
-// mongoose.connect("mongodb://localhost:27017/messdb", { useNewUrlParser: true, useUnifiedTopology: true })
 
 const studentschema = new mongoose.Schema({
     name: String,
@@ -79,7 +78,6 @@ router.post('/deletetodo', async(req, res) => {
     let newstudent = await studentscollection.findOne({ name: name }).exec()
     let newArray;
     newArray = newstudent.todos.filter((item) => {
-        // console.log(item,' ',newTodo)
         return JSON.stringify(item) !== JSON.stringify(newTodo) // without stringify, the objects are not matching
     })
     newstudent.todos = newArray;
@@ -91,11 +89,7 @@ router.post('/deletetodo', async(req, res) => {
 router.get('/initial', async(req, res) => {
     const  {authorization}=  req.headers;
     const [,username] = authorization.split(' ')
-    // console.log(username ,' from initial') 
-
     let todolist = await studentscollection.findOne({name:username}).exec()
-    // console.log(todolist.todos);
-
     if(!todolist){
         res.status(403)
         res.json({
@@ -106,7 +100,6 @@ router.get('/initial', async(req, res) => {
     }
     res.json(todolist.todos)
 })
-
 
 
 
